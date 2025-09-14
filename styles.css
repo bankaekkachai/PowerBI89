@@ -1,0 +1,61 @@
+/* รีเซ็ตค่าเริ่มต้น */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* เมนูนำทาง */
+nav {
+    background: #007acc;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #005f99;
+}
+
+nav a.active {
+    background: #004d80;
+}
+
+/* เนื้อหา */
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+iframe {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* ส่วนท้าย */
+footer {
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
